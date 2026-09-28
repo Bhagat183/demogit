@@ -1,6 +1,16 @@
 employees = [
-    {"id": 1, "name": "Akshat", "role": "DevOps Engineer"},
-    {"id": 2, "name": "Rahul", "role": "Developer"}
+    {
+        "id": 1,
+        "name": "Akshat",
+        "role": "DevOps Engineer",
+        "email": "akshat@example.com"
+    },
+    {
+        "id": 2,
+        "name": "Rahul",
+        "role": "Developer",
+        "email": "rahul@example.com"
+    }
 ]
 
 def get_employees():
